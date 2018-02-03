@@ -1,0 +1,9 @@
+<!..creating a div for login ..>
+
+<div id="login">
+    <div class="form-wrap">
+        <input type="text" [value]="firstName" placeholder="FirstName" class="form-control" #first>
+        <input type="text" [value]="lastName" placeholder="LastName" class="form-control" #last>
+        <button type="button" class="btn btn-large btn-block btn-primary" (click)="submit(first,last)">Login</button> {{title}}
+    </div>
+</div>
